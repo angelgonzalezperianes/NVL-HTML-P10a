@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Formulario</title>
+<form method="post" action="domotica.php">
+    <div>
+      <label for="codigo postal">Código postal:</label>
+      <input id="codigo postal" type="text" placeholder="Escribe tu código postal">
+    </div>
+    <div>
+      <label for="satisfacción">Nivel de satisfacción:</label>
+      <select id="satisfacción">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      </div>
+    <div>
+      <label for="email">dirección de correo:</label>
+      <input type="text" id="email">
+    </div>
+    <div>
+    <label for="comentarios positivos">Puntos positivos del producto:</label>
+    <textarea id="comentarios positivos" maxlength="500"></textarea>
+    </div>
+    <div>
+    <label for="comentarios negativo">Puntos negativos del producto:</label>
+    <textarea id="comentarios negativos" maxlength="500"></textarea>
+    </div>
+    <div>
+      <label for="precio">Precio:</label>
+      <select id="precio">
+        <option value="Excelente">Excelente</option>
+        <option value="Bueno">Bueno</option>
+        <option value="Regular">Regular</option>
+        <option value="Pésimo">Pésimo</option>
+      </select>
+     <div>
+      <label for="manejable">Manejable:</label>
+      <select id="manejable">
+     </div>
+        <option value="Excelente">Excelente</option>
+        <option value="Bueno">Bueno</option>
+        <option value="Regular">Regular</option>
+        <option value="Pésimo">Pésimo</option>
+      </select>
+     </div>
+     <div>
+      <label for="velocidad">Velocidad:</label>
+      <input name="velocidad" type="radio" value="Excelente">Excelente
+      <input name="velocidad" type="radio" value="Bueno">Bueno
+      <input name="velocidad" type="radio" value="Regular">Regular
+      <input name="velocidad" type="radio" value="Pésimo">Pésimo
+  </div>
+  <div>
+      <label for="autonomia">Autonomía:</label>
+      <input name="autonomia" type="radio" value="Excelente">Excelente
+      <input name="autonomia" type="radio" value="Bueno">Bueno
+      <input name="autonomia" type="radio" value="Regular">Regular
+      <input name="autonomia" type="radio" value="Pésimo">Pésimo
+  </div>
+  <input type=”submit” value=”Enviar”> 
+</form>
